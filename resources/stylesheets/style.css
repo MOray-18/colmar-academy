@@ -9,13 +9,16 @@
 
 html {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Lato", sans-serif;
   color: #6d6c6c;
+}
+
+.container {
+  display: flex;
 }
 
 /* Header Section */
 header {
-  display: flex;
   justify-content: space-between;
   height: 4rem;
 }
@@ -45,22 +48,45 @@ header {
 
 .logo span {
   font-size: 2rem;
+  font-family: "Lato";
   text-transform: uppercase;
 }
 
 span.dark {
   font-weight: 700;
-  color: #606060;
+  color: #303030;
 }
 
 span.light {
-  font-weight: 300;
+  font-weight: 400;
 }
 
-nav {
+nav ul {
+  height: 100%;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 nav li {
+  font-size: 1.25rem;
   display: inline;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+  }
+
+  .mobile nav {
+    height: 100%;
+    width: 100%;
+  }
+
+  .desktop {
+    display: none;
+  }
 }
