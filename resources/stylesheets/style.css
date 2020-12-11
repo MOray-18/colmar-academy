@@ -10,7 +10,7 @@
 html {
   font-size: 16px;
   font-family: "Roboto", "Lato", sans-serif;
-  color: #6d6c6c;
+  color: #484848;
 }
 
 .container {
@@ -34,6 +34,20 @@ html {
   margin-left: 0.75rem;
   width: 40%;
 }
+
+/* Typography */
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* Header Section */
 header {
   justify-content: space-between;
@@ -71,11 +85,11 @@ header {
 
 span.dark {
   font-weight: 700;
-  color: #303030;
 }
 
 span.light {
   font-weight: 400;
+  color: #a9a9a9;
 }
 
 nav ul {
