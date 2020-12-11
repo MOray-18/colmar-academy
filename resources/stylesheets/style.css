@@ -26,6 +26,10 @@ html {
   width: 60%;
 }
 
+.left img {
+  width: 100%;
+}
+
 .right {
   margin-left: 0.75rem;
   width: 40%;
@@ -102,4 +106,9 @@ nav li {
   .desktop {
     display: none;
   }
+}
+
+/* Banner Section */
+#banner {
+  padding: 2rem 1.5rem;
 }
