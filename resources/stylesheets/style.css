@@ -12,3 +12,55 @@ html {
   font-family: "Roboto", sans-serif;
   color: #6d6c6c;
 }
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  padding: 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo span {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+span.dark {
+  font-weight: 700;
+  color: #606060;
+}
+
+span.light {
+  font-weight: 300;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  display: inline;
+}
