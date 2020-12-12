@@ -45,6 +45,7 @@ html {
   }
 
   .container {
+    padding: 0;
     flex-direction: column;
   }
 
@@ -56,7 +57,7 @@ html {
   .right {
     width: 100%;
     margin: 0;
-    padding: 2rem 1rem;
+    padding: 2.67rem 1.33rem;
   }
 }
 
@@ -68,19 +69,26 @@ h2 {
 }
 
 h4 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.4;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
 
 figcaption {
   font-size: 1.2rem;
+}
+
+a {
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
 }
 /* Header Section */
 header {
@@ -225,7 +233,11 @@ nav li {
   border-top: 1px solid #d8d8d8;
 }
 
-.info img {
+.info #mobile {
+  display: none;
+}
+
+.info #desktop {
   width: 35%;
   height: auto;
 }
@@ -237,4 +249,42 @@ nav li {
 
 .info p {
   margin: 1rem 0;
+}
+
+@media only screen and (max-width: 450px) {
+  #information .left {
+    display: none;
+  }
+
+  #information .right,
+  .info,
+  #orientation {
+    border: 0;
+  }
+
+  .info {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  .info #mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+
+  .info #desktop {
+    display: none;
+  }
+
+  .info div {
+    width: 100%;
+  }
+
+  #middle {
+    margin: 5.33rem 0;
+  }
 }
