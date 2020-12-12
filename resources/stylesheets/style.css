@@ -15,6 +15,7 @@ html {
 
 .container {
   display: flex;
+  padding: 2rem 1.5rem;
 }
 
 .grey {
@@ -28,11 +29,12 @@ html {
 
 .left img {
   width: 100%;
+  height: auto;
 }
 
 .right {
-  margin-left: 0.75rem;
   width: 40%;
+  margin-left: 0.75rem;
   display: flex;
   flex-direction: column;
 }
@@ -61,16 +63,25 @@ html {
 /* Typography */
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
-p {
-  font-size: 2rem;
+h4 {
+  font-size: 1.75rem;
   font-weight: 500;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
   line-height: 1.2;
 }
 
+figcaption {
+  font-size: 1.2rem;
+}
 /* Header Section */
 header {
   justify-content: space-between;
@@ -180,11 +191,50 @@ nav li {
     margin-bottom: 2.67rem;
   }
 
-  .right p {
+  .right h4 {
     margin-bottom: 2rem;
   }
 
   .right .btn {
     width: 100%;
   }
+}
+
+/* Information Section */
+#information .left img {
+  margin-bottom: 2rem;
+}
+
+#information .left p {
+  margin: 1rem 0;
+}
+
+#information .right {
+  border-left: 1px solid #d8d8d8;
+}
+
+#orientation {
+  padding-top: 0;
+  border-top: 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.info {
+  padding: 1rem;
+  display: flex;
+  border-top: 1px solid #d8d8d8;
+}
+
+.info img {
+  width: 35%;
+  height: auto;
+}
+
+.info div {
+  width: 65%;
+  padding-left: 1rem;
+}
+
+.info p {
+  margin: 1rem 0;
 }
