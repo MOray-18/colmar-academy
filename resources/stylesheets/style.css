@@ -153,7 +153,7 @@ nav ul {
 }
 
 nav li {
-  font-size: 1.25rem;
+  font-size: 1rem;
   display: inline;
   margin-left: 1rem;
 }
@@ -416,6 +416,24 @@ nav li {
   }
 
   .thesis-container .left div {
+    display: none;
+  }
+}
+
+/* Footer Section */
+#footer {
+  padding-top: 1rem;
+  font-size: 1rem;
+  justify-content: space-between;
+  border-top: 1px solid #d8d8d8;
+}
+
+@media only screen and (max-width: 450px) {
+  #footer {
+    padding: 1.33rem 2rem;
+  }
+
+  .desktop-footer {
     display: none;
   }
 }
