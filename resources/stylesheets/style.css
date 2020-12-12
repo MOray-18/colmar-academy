@@ -360,3 +360,48 @@ nav li {
     display: none;
   }
 }
+
+/* Thesis Section */
+#thesis {
+  flex-wrap: wrap;
+  justify-content: stretch;
+}
+
+.thesis-container {
+  display: flex;
+}
+
+#thesis h2 {
+  min-width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.left video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+#thesis .left p {
+  margin-top: 1rem;
+}
+
+.thesis-container .right img {
+  width: 35%;
+  height: auto;
+}
+
+.thesis-container .right .content {
+  display: flex;
+  padding: 1rem;
+}
+
+.content .text {
+  width: 65%;
+  padding-left: 1rem;
+}
+
+.text p {
+  margin-top: 1rem;
+}
