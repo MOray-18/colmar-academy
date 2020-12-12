@@ -405,3 +405,17 @@ nav li {
 .text p {
   margin-top: 1rem;
 }
+
+@media only screen and (max-width: 450px) {
+  #thesis {
+    padding: 2.67rem 0 0.5rem 0;
+  }
+
+  .thesis-container .right {
+    display: none;
+  }
+
+  .thesis-container .left div {
+    display: none;
+  }
+}
